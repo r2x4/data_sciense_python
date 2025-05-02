@@ -31,3 +31,13 @@ radio = float(input("Ingresa el radio del circulo: "))
 area = area_circulo(radio)
 
 print(f'El area del circulo con radio {radio} es: {area:.2f}')
+
+### Ejercicio 4
+
+numero = float(input('Ingresa un numero: '))
+
+cuadrado = numero ** 2
+cubo = numero ** 3
+
+print(f'El numero de {numero} es: {cuadrado}')
+print(f'El cubo del {numero} es: {cubo}')
